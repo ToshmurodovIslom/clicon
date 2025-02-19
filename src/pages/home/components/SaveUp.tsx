@@ -3,7 +3,7 @@ import Macbook from "../../../assets/images/MacbookPro.png"
 import Button from "../../../components/ui/Button"
 function SaveUp() {
     return (
-        <div className="layout mt-10">
+        <div className="w-full px-240p mt-10">
             <div className="w-full bg-Primary-100 rounded-xl flex flex-row items-center justify-center gap-96 ">
                 <div className="w-96 flex flex-col items-start justify-center gap-5">
                 <div className="w-44 h-10 text-base text-white font-semibold bg-Secondary-500 flex items-center justify-center rounded-xs">
