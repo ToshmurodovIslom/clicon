@@ -8,12 +8,21 @@
   --font-psans: "Public Sans", sans-serif;
 }
 
+/* padding */ /* height */
 @theme {
-  --spacing-300: 300px;
+  --spacing-52p: 52px;
+  --spacing-88p: 88px;
+  --spacing-300p: 300px;
+  --spacing-646p: 646px;
+}
+
+/* color */
+@theme {
+  --color-Secondary-700: #1b6392;
 }
 
 @layer components {
   .layout {
-    @apply px-300 w-full;
+    @apply px-300p w-full;
   }
 }
