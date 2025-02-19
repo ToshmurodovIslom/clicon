@@ -1,8 +1,8 @@
 import { FaArrowRight } from "react-icons/fa";
 import Button from "../../components/ui/Button";
-import Xbox from "../../../assets/images/Image.png";
-import Google from "../../../assets/images/image 5.png";
-import FlipBuds from "../../../assets/images/image 4.png";
+import Xbox from "../../assets/images/Image.png";
+import Google from "../../assets/images/image 5.png";
+import FlipBuds from "../../assets/images/image 4.png";
 
 function Home() {
   return (
