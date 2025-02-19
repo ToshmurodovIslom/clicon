@@ -1,1 +1,19 @@
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* tailwind css import */
 @import "tailwindcss";
+
+@theme {
+  --font-psans: "Public Sans", sans-serif;
+}
+
+@theme {
+  --spacing-300: 300px;
+}
+
+@layer components {
+  .layout {
+    @apply px-300 w-full;
+  }
+}
