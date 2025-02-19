@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Introducing from "./components/Introducing";
+import SaveUp from "./components/SaveUp";
 
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <>
       <Hero />
       <Introducing />
+      <SaveUp />
     </>
   );
 }

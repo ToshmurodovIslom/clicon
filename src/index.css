@@ -1,35 +1,45 @@
 /* fonts import */
+
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* tailwind css import */
+
 @import "tailwindcss";
-
 @theme {
-  --font-psans: "Public Sans", sans-serif;
+    --font-psans: "Public Sans", sans-serif;
 }
 
-/* padding */ /* height */
+
+/* padding */
+
+
+/* height */
+
 @theme {
-  --spacing-52p: 52px;
-  --spacing-88p: 88px;
-  --spacing-300p: 300px;
-  --spacing-368p: 368px;
-  --spacing-408p: 408px;
-  --spacing-520p: 520px;
-  --spacing-646p: 646px;
+    --spacing-52p: 52px;
+    --spacing-88p: 88px;
+    --spacing-300p: 300px;
+    --spacing-368p: 368px;
+    --spacing-408p: 408px;
+    --spacing-520p: 520px;
+    --spacing-646p: 646px;
 }
+
 
 /* color */
+
 @theme {
-  --color-Secondary-500: #2DA5F3;
-  --color-Secondary-600: #2484C2;
-  --color-Secondary-700: #1b6392;
-  --color-Primary-500: #FA8232;
-  --color-Warning-500: #EBC80C;
+    --color-Secondary-500: #2DA5F3;
+    --color-Secondary-600: #2484C2;
+    --color-Secondary-700: #1b6392;
+    --color-Primary-500: #FA8232;
+    --color-Primary-100: #FFE7D6;
+    --color-Primary-200: #FFCEAD;
+    --color-Warning-500: #EBC80C;
 }
 
 @layer components {
-  .layout {
-    @apply px-300p w-full;
-  }
+    .layout {
+        @apply px-300p w-full;
+    }
 }
