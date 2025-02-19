@@ -1,10 +1,19 @@
+import { Route, Routes } from "react-router-dom";
+import { lazy } from "react";
 import Navbar from "./components/Navbar/Navbar";
+
+// import Home from "./pages/home";
+
+// lazy
+const Home = lazy(() => import("./pages/home"));
 
 function App() {
   return (
     <div className="font-psans">
       <Navbar />
-      <h1 className="text-2xl">hello</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
